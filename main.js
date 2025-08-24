@@ -7,13 +7,12 @@ import {
 } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBnuY_3sc7m_mQtlETlBEVRZ7WMOYGhBxk",
-  authDomain: "globalconnectionesp32.firebaseapp.com",
-  databaseURL: "https://globalconnectionesp32-default-rtdb.firebaseio.com",
-  projectId: "globalconnectionesp32",
-  storageBucket: "globalconnectionesp32.firebasestorage.app",
-  messagingSenderId: "332133902190",
-  appId: "1:332133902190:web:513439924f99858deb437f",
+  apiKey: "AIzaSyDU4wJgaGOy3aztSqv70VtQiL0Rfzyj5fY",
+  authDomain: "globalconnectionesp32-292bb.firebaseapp.com",
+  projectId: "globalconnectionesp32-292bb",
+  storageBucket: "globalconnectionesp32-292bb.firebasestorage.app",
+  messagingSenderId: "786523804993",
+  appId: "1:786523804993:web:e4e789368b58bea6db3dc0",
 };
 
 const app = initializeApp(firebaseConfig);
