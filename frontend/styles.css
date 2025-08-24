@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.interactive_zone {
+  display: flex;
+  gap: 4em;
+  margin-top: 3em;
+}
+
+.on {
+  height: 3em;
+  width: 5em;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(0, 153, 0);
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: transform 0.1s ease, scale 0.2s ease;
+}
+
+.off {
+  height: 3em;
+  width: 5em;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: transform 0.1s ease, scale 0.2s ease;
+}
+
+.led_on_or_of_state {
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.led_on_or_of_state.led_on {
+  padding: 2em;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.led_on_or_of_state.led_off {
+  padding: 2em;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+button:hover {
+  transform: translateY(-5px);
+}
+
+button:active {
+  scale: 0.95;
+}
